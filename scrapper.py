@@ -1,11 +1,4 @@
-"""
-EstateGPT — Web Scraper
-Handles two tasks:
-  1. PropertySearchService — find property listing URLs from a query string.
-  2. PropertyScraper       — scrape full property details from a single URL.
-Both use the ScrapeGraphAI API.
-Errors are raised directly — no silent fallbacks.
-"""
+
 from __future__ import annotations
 
 from typing import Dict, List
