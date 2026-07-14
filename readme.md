@@ -217,10 +217,6 @@ MONGODB_CHUNK_COLLECTION=property_chunks
 
 # ── Google Maps  (Optional — for neighborhood intelligence) ─────────
 GOOGLE_MAPS_API_KEY=AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-# ── LangSmith Tracing  (Optional) ───────────────────────────────────
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_API_KEY=lsv2_xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 > **💡 Tip:** You can skip the `.env` file entirely and paste your **Groq** and **ScrapeGraph** keys directly in the Streamlit sidebar at runtime.
