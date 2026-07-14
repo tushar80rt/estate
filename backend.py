@@ -1,13 +1,3 @@
-"""
-EstateGPT — Core Engine
-Orchestrates the full RAG pipeline:
-  parse query → scrape → embed → rerank → answer (→ compare / neighbourhood)
-
-Entry point used by app.py:
-    from estategpt import APP_NAME, EstateGPTAgent
-    agent = EstateGPTAgent()
-    response = agent.invoke(user_query)   # returns ChatResponse
-"""
 
 from __future__ import annotations
 
