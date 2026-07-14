@@ -1,8 +1,4 @@
-"""
-EstateGPT — Data Models
-Single source of truth for all Pydantic models used across the project.
-Both scrapper.py and estategpt.py import from here.
-"""
+
 from __future__ import annotations
 
 from datetime import datetime
